@@ -21,12 +21,12 @@ def timeFunc(func):
     print(end - start)
 
 if __name__ == '__main__':
-    timeFunc(docdist1)
-    timeFunc(docdist2)
-    timeFunc(docdist3)
-    timeFunc(docdist4)
-    timeFunc(docdist5)
-    timeFunc(docdist6)
-    timeFunc(docdist7)
-    timeFunc(docdist8)
+    timeFunc(docdist1)  # orig: 228.1    mine: 52.4
+    timeFunc(docdist2)  # orig: 164.7    mine: 30.0
+    timeFunc(docdist3)  # orig: 123.1    mine: 18.4 
+    timeFunc(docdist4)  # orig:  71.7    mine:  5.2
+    timeFunc(docdist5)  # orig:  18.3    mine:  4.1
+    timeFunc(docdist6)  # orig:  11.5    mine:  0.18
+    timeFunc(docdist7)  # orig:   1.8    mine:  0.08
+    timeFunc(docdist8)  # orig:   0.2    mine:  0.09
     pass
